@@ -1,0 +1,43 @@
+@charset"UTF-8";
+/* 蝓ｺ譛ｬ險ｭ螳� */
+*{color: #333}
+html{overflow-y:scroll;min-height:100%}
+body{font-family:'Arial','Hiragino Kaku Gothic Pro','繝偵Λ繧ｮ繝手ｧ偵ざ Pro W3','Hiragino Sans GB W3','繝｡繧､繝ｪ繧ｪ',Meiryo,'�ｭ�ｳ �ｰ繧ｴ繧ｷ繝�け','MS PGothic',sans-serif;font-size:100%}
+#container{margin:0;line-height:1.5}
+a{color:#00a;text-decoration:underline}
+a:hover{color:#00c;text-decoration:none}
+
+/* 繝輔ャ繧ｿ繝ｼ */
+#footer{border-top:1px solid #1a274c}
+#footer p{margin:5px;font-size:0.8em;text-align:center}
+
+ol.topicpath{padding:10px;}
+.topicpath li{display:inline;font-size:14px;margin:0 2px 0 0;}
+.topicpath li a{text-decoration:none;color:#999;padding:0 10px 0 0;background:url("../img/icon_topicpath.png") no-repeat right center}
+.topicpath li a:hover{color:#333}
+
+@media screen and (max-width: 639px){
+#footer{width:320px;margin:15px auto}
+#footer p{margin:15px 5px 5px;font-size:0.75em;text-align:center}
+.pc{display:none}
+}
+ul.shuchoichiran {
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #575757;
+}
+h3.shucho {
+    color: #0080c0;
+    display: block;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 1.4rem;
+}
